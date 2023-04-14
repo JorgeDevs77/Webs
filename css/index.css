@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+
+
+}
+
+body{
+    background-color: #F2EAED;
+    display: flexbox;
+}
+#menu a:hover{
+
+    color:#F2EAED;
+    cursor:pointer;
+    transition-duration: 0.8s;
+}#menu label{
+
+    color:#F2EAED;
+    font-family: 'Arial Narrow Bold';
+    font-size: 30px;
+}
+#menu{
+    background-color: #182657;
+    margin: auto;
+    padding: 10px;
+    max-width: 100%;
+    text-align: center;
+    display: flexbox;
+    box-shadow: 2px 2px 2px black;
+}#menu ul{
+  
+    max-width: 100%;
+}#menu li{
+    padding:20px;
+    list-style: none;
+}#menu a{
+    max-width: 100%;
+    padding: 15px;
+    text-decoration:none;
+    color:#80c4f9;
+    font-family:Franklin;
+    font-size: 14px;
+}#menu-l{
+    background-color: #121F40;
+    margin: auto;
+    margin-left: 0%;
+    height: 42pc;
+    width:25%;
+    max-width: 100%;
+    text-align: center;
+    display: block;
+    box-shadow: 2px 2px 2px black;
+
+}
+/* EDITANDO O PERFIL*/
+#ft img{
+   
+     width: 100px;
+
+     max-width: 100px;
+     margin-top: 10%;
+     border-radius:50px;
+     box-shadow: 2px 1px 1px #2F4F4F;
+    
+}#user{
+ max-width: 100%;
+    color:oldlace;
+    font-family: serif;
+    font-size: 16px;
+}#op img{
+    width: 40px;
+}#op{
+    display: block;
+    margin-left: auto;
+}#op ul li {
+color:oldlace;
+   margin-left: 10%;
+    margin-top: 10%;
+    
+    margin-left: -25%;
+    list-style: none;
+}#op a{
+    text-decoration:none;
+    color:oldlace;
+    max-width: 100%;
+ position: absolute;
+    margin-top: 1%;
+    margin-left: 2%;
+}#op li:hover{
+ background-color: #182657;
+ padding: 10px;
+ display: block;
+ cursor: pointer;
+ transition-duration: 0.8s;
+
+}
+#tela{
+
+    display: flexbox;
+    position: absolute;
+    margin-top: -42%;
+    margin-left: 30%;
+    max-width: 100%;
+    text-align: center;
+   
+    
+}#tela label{
+    font-size: 50px;
+  
+    font-family: Verdana;
+    color:#182657;
+    max-width: 100%;
+
+}#tela ul li{
+    margin-left: -11%;
+    padding: 10px;
+    list-style: none;
+}#tela ul li label{
+
+    font-size: 18px;
+}
+#tabela{
+    display: flexbox;
+    position: absolute;
+    margin-top: -38%;
+    margin-left: 65%;
+    max-width: 100%;
+    text-align: center;
+}#tabela label{
+    font-size: 30px;
+  
+    font-family: Verdana;
+    color:#182657;
+    max-width: 100%;
+}table {
+
+   color:#182657;
+
+    width:25pc;
+    max-width: 100%;
+     background-position: center;
+    text-align: center;
+    border-color:#121F40;
+    
+}#colunas{
+    padding: 10px;
+    font-family: sans-serif;
+    color:#F2EAED;
+     background-color: #121F40;
+}tr{
+
+    background-color: #F2EAED;
+    color:#121F40;
+    font-family: Verdana;
+}
